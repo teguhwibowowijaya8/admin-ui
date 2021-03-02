@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'page_title_suffix' => 'Craftable',
+    'page_title_suffix' => 'Administrator',
 
     'operation' => [
         'succeeded' => 'Operation successful',

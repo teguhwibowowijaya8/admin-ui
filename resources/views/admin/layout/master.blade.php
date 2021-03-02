@@ -10,7 +10,9 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
 	{{-- TODO translatable suffix --}}
-    <title>@yield('title', 'Craftable') - {{ trans('brackets/admin-ui::admin.page_title_suffix') }}</title>
+    <title>
+        @yield('title', 'Administrator') - Administrator
+    </title>
 
 	@include('brackets/admin-ui::admin.partials.main-styles')
 
